@@ -15,7 +15,7 @@ public class AddController {
 
 	@ResponseBody
 	@RequestMapping(method = RequestMethod.GET)
-	public ArrayList<String> add(@RequestParam("t1") int i) { // I'm not using this param for now, but that how you access params from get requests
+	public ArrayList<String> add() { // I'm not using this param for now, but that how you access params from get requests
 		System.out.println("IM HERE!!!!!_____+===--===");
 		ArrayList<String> l = new ArrayList<String>();
 		l.add("something");
